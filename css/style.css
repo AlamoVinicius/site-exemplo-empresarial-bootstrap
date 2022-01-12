@@ -30,7 +30,7 @@ header, .navbar {
 #logo {
     width: 70px;
     margin-left: 20px;
-    margin-right: 40px;
+    margin-right: 20px;
 }
 
 navbar-brand {
@@ -47,7 +47,7 @@ navbar-brand {
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
-    padding: 1rem 1.8rem;
+    padding: 1rem .8rem;
   }
 
   /* Slider */
@@ -99,4 +99,30 @@ navbar-brand {
 
 .carousel-indicators .active {
     background-color: #65daf9;
+}
+
+/* Sobre a empresa */
+
+#about-area {
+    background-color: #f9f9f9;
+}
+
+.main-title {
+    color: #444;
+    margin: 0 0 65px 0;
+    font-size: 40px;
+    text-align: center;
+}
+
+.main-title::after {
+    content: "";
+    border-top: 2px solid #333;
+    width: 15%;
+    position: absolute;
+    left: 42.5%;
+    top: 110%;
+}
+
+.about-title {
+    font-size: 1.1em;
 }

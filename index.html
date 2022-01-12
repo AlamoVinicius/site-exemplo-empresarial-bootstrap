@@ -35,12 +35,12 @@
 <body>
     <header>
         <div class="container" id="nav-container">
-            <nav class="navbar navbar-expand-lg fixed-top">
+            <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
                 <a href="#" class="navbar-brand">
                     <img id="logo" src="images/logo.png" alt="Alamo agênica"> Álamo agency
                 </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links"
-                    aria-controls="navbar-links" aria-expanded="false" aria-label="toggle navigation">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-links"
+                    aria-controls="navbar-links" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
@@ -56,13 +56,13 @@
             </nav>
         </div>
     </header>
-
     <main>
         <div class="container-fluid">
+            <!--slider-->
             <div id="main-slide" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#main-slide" data-bs-slide-to="0"
-                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#main-slide" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
                     <button type="button" data-bs-target="#main-slide" data-bs-slide-to="1"
                         aria-label="Slide 2"></button>
                     <button type="button" data-bs-target="#main-slide" data-bs-slide-to="2"
@@ -70,42 +70,144 @@
                 </div>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="images/banner1.png" class="d-block w-100" alt="Criação de e-commerce">
-                        <div class="carousel-caption d-none d-md-block">
+                        <img src="images/banner1.jpg" class="d-block w-100" alt="Criação de e-commerce">
+                        <div class="carousel-caption d-md-block">
                             <h2>Quer criar um e-commerce?</h2>
-                            <p class="text-white">Conte conosco, temos mais de 30 lojas em nosso portifólio.</p>
-                            <a href="#" class="main-btn">Ver portifólio</a> 
+                            <p class="text-white">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique
+                                sint asperiores magnam nostrum nulla eos! Est ut, perferendis nulla perspiciatis
+                                voluptatem illo repellendus? Dicta et nihil, recusandae alias minima possimus?</p>
+                            <a href="https://github.com/AlamoVinicius" target="_blank" class="main-btn">Ver
+                                portifólio</a>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <img src="images/banner2.png" class="d-block w-100" alt="Engenharia de Software">
-                        <div class="carousel-caption d-none d-md-block">
+                        <div class="carousel-caption d-md-block">
                             <h2>Gostaria de Tirar o Projeto do Papel?</h2>
-                            <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt sit autem voluptatibus asperiores magnam corporis, impedit, quod nihil, rem sint in odio odit doloribus deleniti enim harum eos eum? Laudantium!</p>
-                            <a href="#" class="main-btn">Entrem em contato</a> 
+                            <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt sit
+                                autem voluptatibus asperiores magnam corporis, impedit, quod nihil, rem sint in odio
+                                odit doloribus deleniti enim harum eos eum? Laudantium!</p>
+                            <a href="https://github.com/AlamoVinicius" target="_blank" class="main-btn">Entrem em
+                                contato</a>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <img src="images/banner3.png" class="d-block w-100" alt="Manutenção de Software">
-                        <div class="carousel-caption d-none d-md-block">
+                        <div class="carousel-caption d-md-block">
                             <h2>Manutenção em Software</h2>
-                            <p class="text-white">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci quas, impedit incidunt et dolorem ullam provident, exercitationem quo veritatis, odit inventore corporis suscipit reprehenderit laudantium expedita nisi nostrum deserunt? Voluptatum.</p>
-                            <a href="#" class="main-btn">Entre em contato</a> 
+                            <p class="text-white">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci
+                                quas, impedit incidunt et dolorem ullam provident, exercitationem quo veritatis, odit
+                                inventore corporis suscipit reprehenderit laudantium expedita nisi nostrum deserunt?
+                                Voluptatum.</p>
+                            <a href="https://github.com/AlamoVinicius" target="_blank" class="main-btn">Entre em
+                                contato</a>
                         </div>
                     </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#main-slide"
-                    data-bs-slide="prev">
+                <button class="carousel-control-prev" type="button" data-bs-target="#main-slide" data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Previous</span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#main-slide"
-                    data-bs-slide="next">
+                <button class="carousel-control-next" type="button" data-bs-target="#main-slide" data-bs-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Next</span>
                 </button>
             </div>
-
+            <!--Sobre a empresa-->
+            <div id="about-area">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <h3 class="main-title">Sobre a Álamo agency</h3>
+                        </div>
+                        <div class="col-md-6">
+                            <img src="images/company.jpg" alt="Agencia Álamo" class="img-fluid">
+                        </div>
+                        <div class="col-md-6">
+                            <h3 class="about-title">Uma start-up que pensa no futuro</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus nam dolore, repellat hic
+                                numquam consequatur? Soluta quibusdam reiciendis est, impedit quod laborum minima optio
+                                sed, eligendi vel hic eaque. Debitis.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias vero distinctio animi
+                                illum dolor, molestiae reiciendis fugiat sit voluptates nisi quis, odio in corrupti
+                                nesciunt iste, laborum architecto est error.</p>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae nemo itaque totam
+                                error enim, quasi vel! Exercitationem minus ex rerum aliquam, reiciendis qui eaque
+                                nihil. Perferendis iure necessitatibus eaque repellendus.</p>
+                            <ul id="about-list">
+                                <li><i class="fas fa-check"></i> Machine Learning</li>
+                                <li><i class="fas fa-check"></i> Responsitividade em todos os dispositivos</li>
+                                <li><i class="fas fa-check"></i> Integração com diversos sistemas do mercado</li>
+                                <li><i class="fas fa-check"></i> Sistema de pagamento próprio</li>
+                                <li><i class="fas fa-check"></i> Metodologia ágil</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Serviços da empresa--> 
+            <div id="services-area">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <h3 class="main-title">Especialidades</h3>
+                        </div>
+                        <div class="col-md-4 service-box">
+                            <i class="fas fa-mobile-alt"></i>
+                            <h4>Aplicativos nativos</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum sint adipisci inventore iste modi temporibus praesentium quae sunt. Libero qui magnam, cupiditate optio molestiae nemo at incidunt maxime soluta? Ab.</p>
+                        </div>
+                        <div class="col-md-4 service-box">
+                            <i class="fas fa-shopping-cart"></i>
+                            <h4>E-commerce</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum sint adipisci inventore iste modi temporibus praesentium quae sunt. Libero qui magnam, cupiditate optio molestiae nemo at incidunt maxime soluta? Ab.</p>
+                        </div>
+                        <div class="col-md-4 service-box">
+                            <i class="fas fa-paint-brush"></i>
+                            <h4>Designers</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum sint adipisci inventore iste modi temporibus praesentium quae sunt. Libero qui magnam, cupiditate optio molestiae nemo at incidunt maxime soluta? Ab.</p>
+                        </div>
+                        <div class="col-md-4 service-box">
+                            <i class="fab fa-google"></i>
+                            <h4>Experts em Ceo</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum sint adipisci inventore iste modi temporibus praesentium quae sunt. Libero qui magnam, cupiditate optio molestiae nemo at incidunt maxime soluta? Ab.</p>
+                        </div>
+                        <div class="col-md-4 service-box">
+                            <i class="fas fa-hands-helping"></i>
+                            <h4>Suporte 24/7</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum sint adipisci inventore iste modi temporibus praesentium quae sunt. Libero qui magnam, cupiditate optio molestiae nemo at incidunt maxime soluta? Ab.</p>
+                        </div>
+                        <div class="col-md-4 service-box">
+                            <i class="fas fa-server"></i>
+                            <h4>Servidores</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum sint adipisci inventore iste modi temporibus praesentium quae sunt. Libero qui magnam, cupiditate optio molestiae nemo at incidunt maxime soluta? Ab.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Dados da Empresa-->
+            <div id="data-area">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-3 circle-box">
+                            <div id="circleA"></div>
+                            <p>projetos entregues</p>
+                        </div>
+                        <div class="col-md-3 circle-box">
+                            <div id="circleB"></div>
+                            <p>Clientes Satisfeitos</p>
+                        </div>
+                        <div class="col-md-3 circle-box">
+                            <div id="circleC"></div>
+                            <p>Colaboradores</p>
+                        </div>
+                        <div class="col-md-3 circle-box">
+                            <div id="circleD"></div>
+                            <p>Cafézinhos</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </main>
     <script src="js/scripts.js"></script>

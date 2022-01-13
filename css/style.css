@@ -201,6 +201,11 @@ header,
 }
 
 #data-area {
+  background-image: url(../images/myparalax.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
   box-shadow: inset 0px 0px 10px 8px #000000;
 }
 
@@ -231,6 +236,10 @@ header,
 #apply-area {
   height: 500px;
   margin-bottom: 100px;
+  background-image: url(../images/pattern.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 #apply-area, #apply-area .row {

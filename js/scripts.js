@@ -92,12 +92,12 @@ $(document).ready(function() {  //jquery, só irá carregar quando o documento e
         }
     })
 
-    // paralax na nossa area de dados
-    setTimeout(function() {
+    // paralax na nossa area de dados, não irei usar o script mas sim o css puro para esse efeito
+    /*setTimeout(function() {
         
         $('#data-area').parallax({imageSrc: 'images/myparalax.jpg'})
         $('#apply-area').parallax({imageSrc:'images/pattern.png'})
-    }, 200);
+    }, 200);*/
 
 
     //Esse script não esta funcionanddo mais, alterar para JavaScript puro

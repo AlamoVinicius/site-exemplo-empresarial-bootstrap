@@ -8,7 +8,7 @@
     <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
     <title>Agencia Álamo</title>
     <!--Fontes-->
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" rel="stylesheet">
 
     <!--BootStrap and css-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -35,13 +35,13 @@
 <body>
     <header>
         <div class="container" id="nav-container">
-            <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+            <nav class="navbar navbar-expand-lg fixed-top">
                 <a href="#" class="navbar-brand">
                     <img id="logo" src="images/logo.png" alt="Alamo agênica"> Álamo agency
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-links"
                     aria-controls="navbar-links" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                    <span class="fas fa-bars"></span>
                 </button>
                 <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
                     <div class="navbar-nav">
@@ -208,8 +208,171 @@
                     </div>
                 </div>
             </div>
+            <!--Colaboradores-->
+            <div id="team-area">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <h3 class="main-title">Nossa equipe</h3>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card">
+                                <img src="images/profile1.jpg" class="card-img-top" alt="Imagem de Perfil 1">
+                                <div class="card-body">
+                                    <h5 class="card-title">Arnold Schwarzenegger</h5>
+                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas voluptate, laboriosam dolorem velit deleniti ipsam dolor rerum libero iste vitae dignissimos! Tenetur omnis ipsum autem aut, explicabo sit maxime. Voluptatem?</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card">
+                                <img src="images/profile2.jpg" class="card-img-top" alt="Imagem de Perfil 2">
+                                <div class="card-body">
+                                    <h5 class="card-title">Gal Gadot</h5>
+                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas voluptate, laboriosam dolorem velit deleniti ipsam dolor rerum libero iste vitae dignissimos! Tenetur omnis ipsum autem aut, explicabo sit maxime. Voluptatem?</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card">
+                                <img src="images/profile3.jpg" class="card-img-top" alt="Imagem de Perfil 3">
+                                <div class="card-body">
+                                    <h5 class="card-title">Jean-Claude Van Damme</h5>
+                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas voluptate, laboriosam dolorem velit deleniti ipsam dolor rerum libero iste vitae dignissimos! Tenetur omnis ipsum autem aut, explicabo sit maxime. Voluptatem?</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card">
+                                <img src="images/profile4.jpg" class="card-img-top" alt="Imagem de Perfil 4">
+                                <div class="card-body">
+                                    <h5 class="card-title">Angelina Jolie</h5>
+                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas voluptate, laboriosam dolorem velit deleniti ipsam dolor rerum libero iste vitae dignissimos! Tenetur omnis ipsum autem aut, explicabo sit maxime. Voluptatem?</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Trabalhe conosco-->
+            <div id="apply-area" class="container-fluid">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-6 apply-box" id="company-img"></div>
+                        <div class="col-md-6 apply-box" id="pattern-img">
+                            <h4>Gosta de Desafios?</h4>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti veritatis architecto nihil labore, in quaerat officiis! Cum soluta nobis adipisci ipsum commodi, neque error distinctio, aliquam cumque dolorem sint quo.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dignissimos odio? Tempora laboriosam reprehenderit quae nesciunt recusandae voluptas explicabo ut quo, quam culpa blanditiis iste error eveniet, odio libero quod!</p>
+                            <p>Clique no Botão abaixo e confira as vagas abertas</p>
+                            <a href="#" class="main-btn" target="_blank" id="apply-btn">Saiba mais</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Portifólio-->
+            <!--(importante) ainda falta o script para filtro, não esquecer de desenvolver com Js puro-->
+            <div id="portfolio-area">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h3 class="main-title">Conheça nossos projetos</h3>
+                        </div>
+                        <div class="col-md-12" id="filter-btn-box">
+                            <button class="main-btn filter-btn all-btn active">Todos</button>
+                            <button class="main-btn filter-btn dev-btn">Desenvolvimento</button>
+                            <button class="main-btn filter-btn dsg-btn">Design</button>
+                            <button class="main-btn filter-btn seo-btn">Ceo</button>
+                        </div>
+                        <div class="col-md-4 project-box dev">
+                            <img src="images/proj1.jpg"  class="img-fluid" alt="projeto 1">
+                        </div>
+                        <div class="col-md-4 project-box dsg">
+                            <img src="images/proj2.jpg" class="img-fluid" alt="projeto 2">
+                        </div>
+                        <div class="col-md-4 project-box seo">
+                            <img src="images/proj3.jpg" class="img-fluid" alt="projeto 3">
+                        </div>
+                        <div class="col-md-4 project-box dev">
+                            <img src="images/proj4.jpg" class="img-fluid" alt="projeto 4">
+                        </div>
+                        <div class="col-md-4 project-box dsg">
+                            <img src="images/proj5.jpg" class="img-fluid" alt="projeto 5">
+                        </div>
+                        <div class="col-md-4 project-box ceo">
+                            <img src="images/proj6.jpg" class="img-fluid" alt="projeto 6">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--NewsLetter-->
+            <div id="news-area">
+                <div class="container">
+                    <div class="col-md-12">
+                        <h3 class="main-title">Fique por Dentro das Novidades</h3>
+                    </div>
+                    <p>Assine nossa lista de e-mails, e receba nossos conteúdos sobre novas tecnologia e seus desenvolvimentos</p>
+                    <form action="">
+                        <input type="email" class="form-control" name="email" id="email-input" placeholder="Seu melhor email">
+                        <input type="submit" id="news-btn" value="Inscrever">
+                    </form>
+                </div>
+            </div>
+            <!--Call to action-->
+            <div id="call-area">
+                <div class="container">
+                    <div class="row">
+                        <p>Orçamento sem compromisso</p>
+                        <button class="main-btn" id="call-btn">Orçamento</button>
+                    </div>
+                </div>
+            </div>
         </div>
     </main>
+    <!--rodapé-->
+    <footer>
+        <div id="contact-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3 class="main-title">Entre em contato conosco</h3>
+                    </div>
+                    <div class="col-md-4 contact-box">
+                        <i class="fas fa-phone"></i>
+                        <p><span class="contact-title">Ligue para:</span> (48)99999-9999</p>
+                        <p><span class="contact-title">Horários:</span> 8:00 - 17:00</p>
+                    </div>
+                    <div class="col-md-4 contact-box">
+                        <i class="fas fa-envelope"></i>
+                        <p><span class="contact-title">Envie um Email:</span> alamo.cma22@gmail.com</p>
+                    </div>
+                    <div class="col-md-4 contact-box">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p><span class="contact-title">Venha conhecer nossos projetos:</span> Rua Lorem Ipsum - 1324</p>
+                    </div>
+                    <div class="col-md-6" id="msg-box">
+                        <p>Deixe sua mensagem:</p>
+                    </div>
+                    <div class="col-md-6" id="contact-form">
+                        <form action="">
+                            <input type="email" class="form-control" placeholder="E-mail" name="email">
+                            <input type="text" name="texto" class="form-control" placeholder="assunto">
+                            <textarea class="form-control" rows="3" placeholder="Sua mensagem..." name="message"></textarea>
+                            <input type="submit" class="main-btn" value="enviar">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="copy-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <p>Desenvolvido por <a href="https://github.com/AlamoVinicius" target="_blank">Álamo Vinícus</a>. &copy; 2022 Empresa fictícia side modelo.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
     <script src="js/scripts.js"></script>
 </body>
 

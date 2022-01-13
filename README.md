@@ -1,2 +1,2 @@
-# site-exemplo-empresarial-bootstrap
+# site-modelo-onepage
  Um site que estou desenvolvendo, Empresa fictícia, com meu nome para demonstração de uma construção de site totalmente responsivo ultilizando também bootstrap.

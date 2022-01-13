@@ -46,7 +46,6 @@ header,
   color: white;
   font-size: 40px;
   outline-color: white;
-
 }
 
 .navbar-brand:hover {
@@ -57,13 +56,12 @@ header,
   color: #fff;
 }
 
-
 .navbar-expand-lg .navbar-nav .nav-link {
   padding: 1rem 1.8rem;
 }
 
 .nav-item.active {
-  border: 3px solid #FFF;
+  border: 3px solid #fff;
 }
 
 /*------------------------ Slider------------------------*/
@@ -75,7 +73,6 @@ header,
 #main-slide .carousel-inner,
 #main-slide .carousel-item {
   height: 90vh;
-
 }
 
 #main-slide .carousel-caption {
@@ -131,7 +128,6 @@ header,
   font-size: 3em;
   text-align: center;
   border-bottom: 2px solid #3ec1d5;
-  
 }
 
 .about-title {
@@ -155,7 +151,6 @@ header,
   margin-right: 15px;
 }
 
-
 /* ------------------------Serviços---------------------------*/
 
 .service-box {
@@ -163,8 +158,9 @@ header,
   margin-bottom: 50px;
 }
 
-.service-box i, .service-box h4 {
-  transition: .5s;
+.service-box i,
+.service-box h4 {
+  transition: 0.5s;
 }
 
 .service-box i {
@@ -178,9 +174,10 @@ header,
   margin-bottom: 20px;
 }
 
-.service-box:hover > i, .service-box:hover > h4 {
+.service-box:hover > i,
+.service-box:hover > h4 {
   color: #65daf9;
-} 
+}
 
 /*-------------------Dados------------------------*/
 
@@ -211,7 +208,6 @@ header,
 
 /*.................Nosso Time.....................*/
 
-
 .card {
   border: 1px solid black;
   border-radius: 25px;
@@ -219,7 +215,7 @@ header,
 }
 
 .card > img {
-  border-radius: 25px 25px 0 0 ;
+  border-radius: 25px 25px 0 0;
 }
 
 .card-body {
@@ -232,7 +228,6 @@ header,
 
 /*------------Trabalhe Conosco------------*/
 
-
 #apply-area {
   height: 500px;
   margin-bottom: 100px;
@@ -242,7 +237,8 @@ header,
   background-size: cover;
 }
 
-#apply-area, #apply-area .row {
+#apply-area,
+#apply-area .row {
   height: 100%;
 }
 
@@ -251,16 +247,16 @@ header,
   text-align: center;
 }
 
-
 #company-img {
   background-image: url(../images/company-paralax.jpg);
-  background-size: cover; 
+  background-repeat: no-repeat;
+  background-size: cover;
   background-position: center center;
-  height: 500px;
 }
 
-#pattern-img h4, #pattern-img p {
-  color: #fff;  
+#pattern-img h4,
+#pattern-img p {
+  color: #fff;
 }
 
 #pattern-img h4 {
@@ -274,11 +270,11 @@ header,
 }
 
 #apply-btn {
-  display:block;
+  display: block;
   height: auto;
   width: 180px;
   margin: auto;
-  margin-top: 40px;;
+  margin-top: 40px;
   background-color: transparent;
   border-color: #fff;
 }
@@ -288,21 +284,19 @@ header,
   background-color: #65daf9;
 }
 
-
 /*-----------area de portifólio----------------*/
 .project-box {
   margin-bottom: 30px;
 }
 
 .img-fluid {
-  box-shadow: 0px 0px 10px  rgba(0, 0, 0, 0.575);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.575);
 }
 
 #filter-btn-box {
   margin-bottom: 50px;
   text-align: center;
 }
-
 
 #portfolio-area .filter-btn {
   color: #444;
@@ -317,12 +311,12 @@ header,
   padding: 0 15px;
 }
 
-#portfolio-area .filter-btn.active, #portfolio-area .filter-btn:hover {
+#portfolio-area .filter-btn.active,
+#portfolio-area .filter-btn:hover {
   color: white;
   background-color: #65daf9;
   border-color: #65daf9;
 }
-
 
 /*----------news letter----------*/
 
@@ -358,7 +352,7 @@ header,
   padding: 0 30px;
   margin-left: -140px;
   position: absolute;
-  transition: .5s;
+  transition: 0.5s;
 }
 
 #news-btn:hover {
@@ -387,7 +381,7 @@ header,
   font-weight: bold;
   font-size: 1.4em;
   width: auto;
-  letter-spacing: .3em;
+  letter-spacing: 0.3em;
   margin-bottom: 0;
   display: inline-block;
   height: 60px;
@@ -401,7 +395,7 @@ header,
   font-size: 1.4em;
   margin-left: 30px;
   width: auto;
-  letter-spacing: .3em;
+  letter-spacing: 0.3em;
 }
 
 /*------------Rodapé--------------*/
@@ -440,7 +434,9 @@ header,
   font-size: 22px;
 }
 
-#contact-form input[type="text"], #contact-form input[type="email"], #contact-form textarea {
+#contact-form input[type="text"],
+#contact-form input[type="email"],
+#contact-form textarea {
   margin-bottom: 15px;
   border-radius: 0;
 }
@@ -472,7 +468,7 @@ header,
 #copy-area .container a {
   font-weight: bold;
   color: #444;
-  transition: .5s;
+  transition: 0.5s;
 }
 
 #copy-area .container a:hover {
@@ -480,10 +476,16 @@ header,
   color: #3ec1d5;
 }
 
+/*------------responsive-------------*/
+
 @media (max-width: 768px) {
+  /*---------Geral-----------*/
+
   .container {
     padding: 20px 0;
   }
+
+  /*-------slider---------*/
 
   #main-slide .carousel-inner,
   #main-slide .carousel-item {
@@ -491,12 +493,12 @@ header,
   }
 
   #main-slide .carousel-caption h2 {
-    font-size: 28px;
+    font-size: 25px;
   }
 
   #main-slide .carousel-caption p {
-    font-size: 18px;
-    margin-bottom: 20px;
+    font-size: 15px;
+    margin-bottom: 25px;
   }
 
   .carousel-caption {
@@ -505,30 +507,180 @@ header,
   }
 
   .w-100 {
-    height: 70vh;
+    height: 80vh;
   }
+
+  /*    about   */
+  #about-area img {
+    margin-top: 200px;
+  }
+
+  /* data */
+  .circle-box div {
+    padding: 0 10px;
+  }
+
+  #data-area p {
+    font-size: 16px;
+  }
+
+  /*-----team -----*/
+
+  .card-title {
+    font-size: 14px;
+  }
+
+  .card {
+    height: 500px;
+    margin-bottom: 30px;
+  }
+
+  .card-text {
+    font-size: 12px;
+  }
+
+  /*apply*/
+
+  #apply-area .apply-box {
+    padding: 50px 25px;
+
+  }
+
+  #pattern-img p {
+    font-size: 14px;
+  }
+
+  /*news*/
+  #news-area p {
+    width: 80%;
+    font-size: 17px;
+    margin: auto;
+    margin-bottom: 40px;
+    margin-top: -40px;
+  }
+
+  #email-input {
+    width: 70%;
+  }
+
+  #call-area .container {
+    margin-top: 30px;
+    padding: 30px;
+  }
+
+  #call-area p, #call-area #call-btn {
+    font-size: 16px;
+  }
+
 }
 
-@media (max-width: 450px) {
-  #main-slide {
-    margin-top: 90px;
+@media(max-width: 626px) {
+
+  /* slider */
+  #main-lide {
+    margin-top: 190px;
   }
 
   #main-slide .carousel-caption {
-    top: 5%;
+    top: 50%;
   }
 
   #main-slide .carousel-caption h2 {
     font-size: 18px;
     margin-bottom: 40px;
-    margin-top: 30px;
   }
 
   #main-slide .carousel-caption p {
-    display: none;
+   display: none;
   }
 
   .carousel-caption .main-btn {
     font-size: 14px;
   }
+
+  /* about */
+  .main-title {
+    font-size: 30px;
+  }
+
+  #about-area img {
+    margin-top: 0;
+    margin-bottom: 30px;
+  }
+
+  #about-area p {
+    text-align: justify;
+  }
+
+  /* data */
+  .circle-box {
+    width: 50%;
+  }
+
+  #team-area .col-md-3 {
+    width: 50%;
+    margin-bottom: 30px;
+  }
+
+  .card {
+    height: 550px;
+  }
+
+  /* apply */
+  #apply-area {
+    height: auto;
+  }
+
+  #company-img {
+    height: 37vh;
+  }
+
+  /* filter */
+  #portfolio-area .filter-btn {
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .project-box {
+    width: 50%;
+  }
+
+  /* news */
+  #news-area .main-title {
+    font-size: 24px;
+  }
+
+  #news-area p {
+    font-size: 16px;
+  }
+
+  #email-input {
+    width: 80%;
+  }
+
+  /*cta*/
+
+   #call-area #call-btn {
+    font-size: 14px;
+    ;
+  }
+
+  #call-area p {
+    text-align: center;
+    font-size: 1em;
+    letter-spacing: 0;
+  }
+
+  #call-area #call-btn {
+    margin: 0;
+    width: 50%;
+  }
+
+  /* contact */
+  .contact-box {
+    border: none;
+    margin-bottom: 0;
+  }
+
 }
